@@ -37,12 +37,12 @@ wallet-api/
 
 Клонируйте репозиторий
 ```bash
-git clone git@github.com:IvalexAnna/ITK-academy
+git clone git@github.com:IvalexAnna/wallet-api
 ```
 Перейдите в корневую директорию проекта
 
 ```bash
-cd ITK-academy/wallet-api
+cd wallet-api
 ```
 
 Скопируйте переменные окружения
@@ -95,15 +95,16 @@ uv sync
 ```bash
 alembic upgrade head
 ```
-Опционально запустите БД
-```bash
-docker-compose up -d db
-```
-
-Запустите приложение
+Запустите приложение локально
 ```bash
 uv run uvicorn main:app --reload
 ```
+
+Соберите контейнеры и запутсите их 
+```bash
+docker compose up --build
+```
+
 ---
 
 ## ⚙️ Конфигурация
