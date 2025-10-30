@@ -1,4 +1,4 @@
-# 📚 Book Database API
+# 📚 Wallet Database API
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green?logo=fastapi)
